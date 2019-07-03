@@ -1,3 +1,3 @@
 FROM busybox
-RUN git clone https://github.com/kubernetes/kubernetes.git
+RUN wget https://github.com/kubernetes/kubernetes/archive/master.zip
 MAINTAINER 532088799@qq.com
